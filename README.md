@@ -1,34 +1,48 @@
-# Testes automatizados com Cypress - Intermediário
+# 📗 Automated Testing with Cypress
 
-👋 Seja bem-vinda(o)!
 
-É muito bom tê-la(o) aqui. Tenho certeza que você vai adorar este curso. ❤️
+👋 Welcome
 
-## O que você vai aprender
+## 🚀 Installation
 
-Durante o curso de testes automatizados com Cypress (intermediário) você vai aprender:
+Clone the repository and install the dependencies:
 
-- Como configurar o ambiente local de desenvolvimento
-- Como instalar e configurar o Cypress
-- Como criar testes automatizados de interface gráfica de usuário
-- Como criar testes automatizados de API (com _feedback_ visual no navegador)
-- Como testar APIs que necessitam um _token_ de acesso
-- Como criar testes otimizados e direto-ao-ponto
-- Como salvar a sessão do usuário no navegador para posterior restauração
-- Como validar se a sessão do usuário ainda é válida e como lidar com isso quando a mesma é invalidada
-- Como fazer a limpeza e criação da massa de dados antes do teste começar
-- Como proteger dados sensíveis, tais como senhas e _tokens_ de acesso
-- Como organizar os testes e comandos customizados em diferentes "camadas" (_API, CLI, GUI_)
-- Como estruturar os testes pensando em pré-condições, ações e resultados esperados
-- Como gerar dados aleatórios para uso nos testes automatizados
-- Como habilitar funcionalidades experimentais do Cypress
-- Como executar comandos à nível de sistema operacional
-- E como testar a leitura de arquivos
+```bash
+git clone https://github.com/Yasmin-Rodrigues/cypress-intermediario-v2
+cd cypress-intermediario-v2
+npm install
+# or
+yarn
+```
 
-## Vamos começar?
+## 🧪 Running the Tests
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+Interactive mode (GUI):
+```bash
+npx cypress open
+```
 
-___
+Headless mode (CLI):
+```bash
+npx cypress run
+```
+## 📝 Content
 
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+
+- How to set up the local development environment
+- How to install and configure Cypress
+- How to create automated graphical user interface (GUI) tests
+- How to create automated API tests (with visual feedback in the browser)
+- How to test APIs that require an access token
+- How to write optimized and straight-to-the-point tests
+- How to save the user's session in the browser for later restoration
+- How to validate whether the user session is still valid and how to handle it when it's invalidated
+- How to clean up and prepare test data before the test starts
+- How to protect sensitive data, such as passwords and access tokens
+- How to organize tests and custom commands into different "layers" (API, CLI, GUI)
+- How to structure tests around preconditions, actions, and expected outcomes
+- How to generate random data for use in automated tests
+- How to enable Cypress experimental features
+- How to execute operating system-level commands
+
+- And how to test file reading operations
